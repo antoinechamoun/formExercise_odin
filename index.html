@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <script src="javascript.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+            <img class="background" src="https://images.unsplash.com/photo-1585202900225-6d3ac20a6962?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" alt="NOT available">
+            <p class="reference">Photo by <u>Halie</u> West on <u>unsplash</u></p>
+        </div>
+        <div class="right">
+            <form action="#">
+                <div class="form-container">
+                    <h1>Let's do this!</h1>
+                    <div class="grid-container">
+                        <div>
+                            <label for="firstName">FIRST NAME</label>
+                            <input type="text" id="firstName" required>
+                        </div>
+                        <div>
+                            <label for="lastName">LAST NAME</label>
+                            <input type="text" id="lastName" required>
+                        </div>
+                        <div>
+                            <label for="mail">EMAIL</label>
+                            <input type="email" name="email" id="mail" required>
+                        </div>
+                        <div>
+                            <label for="phone">PHONE NUMBER</label>
+                            <input type="number" name="phoneN" id="phone" required>
+                        </div>
+                        <div>
+                            <label for="pass">
+                                <span>PASSWORD</span>
+                                <input type="password" name="passN" id="pass" required>
+                                <span class="error" aria-live="polite"></span>
+                            </label>
+                        </div>
+                        <div>
+                            <label for="passMatch">CONFIRM PASSWORD</label>
+                            <input type="password" name="passMatchN" id="passMatch" required>
+                        </div>
+                    </div>
+                </div>
+                <button type="submit" id="submitBtn">Create Account</button>
+            </form>
+            <div class="userAlready">
+                <p>Already have an account? </p>
+                <a href="#">Login</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
